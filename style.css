@@ -1,0 +1,16 @@
+* {box-sizing: border-box;}
+
+.items {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 30px;
+}
+
+.item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid red;
+   height: 200px;
+   font-size: 30px;
+}
